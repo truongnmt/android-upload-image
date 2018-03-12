@@ -10,7 +10,7 @@
 	$server_ip = gethostbyname(gethostname());
 
 	//creating the upload url
-	$upload_url = 'http://'.$server_ip.'/upload-image/'.$upload_path;
+	$upload_url = 'http://10.0.2.2:8888/upload-image/'.$upload_path;
 
 	//response array
 	$response = array();
